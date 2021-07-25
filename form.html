@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .flex{
+            display: flex;
+        }
+    </style>
 </head>
 <body>
+    <h1>Paw`s Step</h1>
+
+    <p>Name: <input type="text" name="name" placeholder="write your name" id=""></p>
+    <p>Email: <input type="email" name="email" placeholder="write your email" id=""></p>
+    <p>Number: <input type="tel" name="number" placeholder="your number" id=""></p>
+
+    <fieldset class="flex">
+        <legend>Choose your cat gender</legend>
+        <label for="male">
+            <input type="radio" name="gender" id="male"> Male
+        </label>
+        
+        <label for="female">
+            <input type="radio" name="gender" id="female"> Female
+        </label>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>
+            Choose how many cat you have
+        </legend>
+        <p>
+            <label for="one">
+                <input type="checkbox" name="number of cat" id="one">
+            </label> One
+        </p> 
+
+        <p><label for="two"><input type="checkbox" name="number of cat" id="two"></label> Two</p> 
+
+        <p><label for="three"><input type="checkbox" name="number of cat" id="three"></label> Three</p> 
+
+        <p><label for="four"><input type="checkbox" name="number of cat" id="four"></label> More then four</p> 
+
+    </fieldset>
+    <br>
+    
+        <textarea name="textarea" placeholder="write your question" id="" cols="30" rows="10"></textarea>
+
+        <button type="submit">Submit</button>
+
+        <button type="reset">Reset</button>
+
     
 </body>
 </html>
